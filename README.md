@@ -51,7 +51,6 @@ Suppose we want to find our documents that contain the keywords of apple, avocad
 2. If we input a document namely `avocado` into the tree, once we meet the leaf means this document has the keyword of the current path.
     
     <img src="https://github.com/luli0034/efficient-keyword-search/blob/main/img/TrieTree_found.png" width="250" />
-    ![TrieTree_found.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/817d9192-1346-4fc4-b43d-fdb5c35e7bc5/TrieTree_found.png)
     
 3. If we input a document namely `avoc` into the tree, the traversal will stop in the middle of the path, which means that the keyword of the current path is not satisfied.
     
